@@ -1,6 +1,6 @@
-# Countinng Shapes
+# Counting Shapes with LLMs
 
-* This repository holds an attempt to apply fine tuning techniques a large language model (LLM) and test/improve its ability to "count" shapes in an image.
+This repository holds an attempt to apply fine tuning techniques a large language model (LLM) and test/improve its ability to "count" shapes in an image.
 
 ## Overview
 
@@ -21,7 +21,9 @@ The data required minimal processing. Python scripts were used to generate image
 
 #### Data Visualization
 
-![Examples of given image data.](/Images/test.png)
+Examples of given image data.
+
+![](/Images/test.png)
 
 ![](/Images/test2.png)
 
@@ -33,21 +35,23 @@ The input would be any given image, the output would be the written text respons
 
 ### Training
 
+Model fine tuning loss.
 
-![Model fine tuning loss.](/Images/_train_total_loss.png)
+![](/Images/_train_total_loss.png)
 
 
 
 
 ### Performance Comparison
 
+Initial model accuracy (calculated using python scripts to parse responses, may include errors).
 
-![Initial model accuracy (calculated using python scripts to parse responses, may include errors).](/Images/initial_accuracy.png)
+![](/Images/initial_accuracy.png)
 
 
+Fine-tuned model accuracy during training.
 
-
-![Fine-tuned model accuracy during training.](/Images/Accuracy.png)
+![](/Images/Accuracy.png)
 
 
 
@@ -80,7 +84,7 @@ To reproduce the analysis and modeling results:
 * **LLM_Images.py**: modularized set of functions used to generate dataset images (based on code from `LLM_Image_Generation.ipynb`)
 * **LLM_Test_API.ipynb**: initial tryout of an LLM API
 * **LLM_Initial.ipynb**: initial attempt at collecting/recording data and LLM responses
-* **LLM_Prototype.ipynb**: contains attempt to test, train, and fine-tune LLM models 
+* **LLM_Prototype.ipynb**: contains attempt to test, analyze, and fine-tune LLM models 
 
 
 ### Software Setup
