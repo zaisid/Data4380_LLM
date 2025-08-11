@@ -1,4 +1,4 @@
-# Handwriting Identification
+# Countinng Shapes
 
 * This repository holds an attempt to apply fine tuning techniques a large language model (LLM) and test/improve its ability to "count" shapes in an image.
 
